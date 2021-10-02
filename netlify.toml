@@ -1,0 +1,8 @@
+[Settings]
+
+[build]
+  command = "npm run build:netlify"
+  publish = "dist/"
+
+[build.environment]
+  NODE_VERSION = "14.18.0"
