@@ -10,6 +10,6 @@
 		"build": "npm run clear  && parcel build src/index.html --no-source-maps  --no-content-hash",
 		"build:netlify": "npm run clear  && bash netlify.sh",
 		"dev": "parcel serve src/index.html --https --open --port 300",
-		"clear": "rimraf dist/ .cache/ **/pkg/ **/target/ **/Cargo.lock"
+		"clear": "rimraf ./dist/ ./.cache/ ./**/*/pkg/ ./**/*/target/ ./**/*/Cargo.lock"
 	}
 }
